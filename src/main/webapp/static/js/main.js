@@ -30,7 +30,7 @@ function main() {
 	
 	
     // Nivo Lightbox 
-    $('.portfolio-item a').nivoLightbox({
+    $('.case-shows-item a').nivoLightbox({
             effect: 'slideDown',  
             keyboardNav: true,                            
         });
