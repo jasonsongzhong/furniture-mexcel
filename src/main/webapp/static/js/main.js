@@ -30,7 +30,7 @@ function main() {
 	
 	
     // Nivo Lightbox 
-    $('.case-shows-item a').nivoLightbox({
+    $('.technical-assistance-item a').nivoLightbox({
             effect: 'slideDown',  
             keyboardNav: true,                            
         });

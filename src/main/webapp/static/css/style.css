@@ -160,10 +160,10 @@ hr {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-	outline: none;
-	outline-offset: none;
-}
+/*a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {*/
+/*	outline: none;*/
+/*	outline-offset: none;*/
+/*}*/
 /* Header Section */
 .intro {
 	display: table;
@@ -298,15 +298,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #services .service-desc hr {
 	margin-left: 0;
 }
-/* case-shows Section */
-#case-shows {
+/* technical-assistance Section */
+#technical-assistance {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-.case-shows-item {
+.technical-assistance-item {
 	margin: 15px 0;
 }
-.case-shows-item .hover-bg {
+.technical-assistance-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 }
@@ -366,14 +366,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 64px;
 }
 
-.testimonial-image1 img{
-	margin: 15px;
-	width: 200px;
-	height: auto;
+#case-show {
+	padding: 100px 0;
 }
 
-testimonial-image1 col-md-3 {
-	width: 200px;
+.case-show-style{
+	margin: 15px 0px 15px 0px;
+}
+
+.case-show-list img {
+	width: 100%;
 	height: auto;
 }
 
