@@ -276,28 +276,32 @@ hr {
 }
 /* Services Section */
 #services {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 }
-#services .service-media {
-	margin: 10px;
+
+
+#services #thumbs .swiper-slide{
+	width: 99%;
+	height: auto !important;
 }
+
 #services .service-media img {
 	position: relative;
 	display: block;
 	width: 82px;
 	height: 76px;
-	margin: 15px;
+	padding: 0px;
+	margin: 25px 0px 0px 15px ;
 }
-#services .service-desc {
-	margin: 10px 10px 20px;
+
+.swiper-slide-thumb-active {
+	background: #b0e0f1;
 }
 #services h3 {
 	font-weight: 700;
 	padding: 5px 0;
 }
-#services .service-desc hr {
-	margin-left: 0;
-}
+
 /* technical-assistance Section */
 #technical-assistance {
 	padding: 100px 0;
