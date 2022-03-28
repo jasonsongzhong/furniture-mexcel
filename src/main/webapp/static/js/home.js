@@ -32,6 +32,12 @@ $(function (){
         //抓手光标
         grabCursor : true,
         spaceBetween: 10,
+        // height:500,
+        // autoplay: {     //是否开启自动循环
+        //     delay: 3000,    //图片循环间隔时间
+        //     disableOnInteraction :false,//鼠标点击是否切换
+        //     pauseOnMouseEnter: false, //鼠标放入是否切换
+        // },
         thumbs: {
             swiper: {
                 //抓手光标
